@@ -1,1 +1,10 @@
-/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/Presentation/composite-iterator/src/main/java/com/mycompany/app/App.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/MenuItem.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/DinerMenuIterator.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/Menu.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/Iterator.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/DinerMenu.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/Waitress.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/App.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/CafeMenu.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/MenuComponent.java
+/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/src/main/java/com/mycompany/app/PancakeHouseMenu.java

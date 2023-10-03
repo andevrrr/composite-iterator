@@ -1,10 +1,10 @@
 package com.mycompany.app;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
 
-public class DinerMenu implements Menu{
+import java.util.Iterator;
+
+
+public class DinerMenu extends MenuComponent{
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;

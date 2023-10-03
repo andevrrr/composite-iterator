@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.054" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.047" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Users/anton/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/surefire/surefirebooter3165037792496068027.jar /Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/surefire 2023-10-03T22-44-53_141-jvmRun1 surefire1909803923058571659tmp surefire_0762765269323468970tmp"/>
+    <property name="sun.java.command" value="/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/surefire/surefirebooter8135421843398294555.jar /Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/surefire 2023-10-03T23-29-52_755-jvmRun1 surefire11714384338179732626tmp surefire_04975977573924395943tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/test-classes:/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/classes:/Users/anton/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/anton/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/surefire/surefirebooter3165037792496068027.jar"/>
+    <property name="surefire.real.class.path" value="/Users/anton/Desktop/University/ThirdYear/Fall/Software Architectures and Design 2023/composite-iterator/target/surefire/surefirebooter8135421843398294555.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -57,5 +57,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.006"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.004"/>
 </testsuite>

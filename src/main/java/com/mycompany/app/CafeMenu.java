@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CafeMenu implements Menu{
+public class CafeMenu extends MenuComponent{
     Map<String, MenuItem> menuItems = new HashMap<String, MenuItem>();
     
     public CafeMenu() {

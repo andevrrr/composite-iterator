@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-public class MenuItem extends MenuComponent{
+public class MenuItem extends MenuComponent {
     String name;
     String description;
     boolean vegetarian;
@@ -37,5 +37,5 @@ public class MenuItem extends MenuComponent{
         System.out.println(", " + getPrice());
         System.out.println("   --" + getDescription());
     }
-
 }
+

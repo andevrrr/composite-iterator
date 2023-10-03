@@ -3,9 +3,9 @@ package com.mycompany.app;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Menu extends MenuComponent{
+public class Menu extends MenuComponent {
     
-    List<MenuComponent> menuComponent = new ArrayList<MenuComponent>();
+    List<MenuComponent> menuComponents = new ArrayList<>();
     String name;
     String description;
 
@@ -15,15 +15,15 @@ public class Menu extends MenuComponent{
     }
 
     public void add(MenuComponent menuComponent) {
-        menuComponent.add(menuComponent);
+        menuComponents.add(menuComponent);
     }
 
     public void remove(MenuComponent menuComponent) {
-        menuComponent.remove(menuComponent);
+        menuComponents.remove(menuComponent);
     }
 
     public MenuComponent getChild(int i) {
-        return menuComponent.get(i);
+        return menuComponents.get(i);
     }
 
     public String getName() {
@@ -39,8 +39,8 @@ public class Menu extends MenuComponent{
         System.out.println(", " + getDescription());
         System.out.println("---------------------");
 
-        for (MenuComponent menuComponent : menuComponent) {
-            menuComponent.print();
+        for (MenuComponent component : menuComponents) {
+            component.print();
         }
     }
 }
