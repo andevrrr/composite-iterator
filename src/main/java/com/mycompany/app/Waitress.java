@@ -22,9 +22,8 @@ public class Waitress {
         printMenu(dinerIterator);
     }
 
-    private void printMenu(Iterator iterator) {
-        while (iterator.hasNext()) {
-            MenuItem menuItem = iterator.next();
+    private void printMenu(Iterator<MenuItem> iterator) {
+        for (MenuItem item: menu) {
             System.out.println(menuItem.getName() + ",  ");
             System.out.println(menuItem.getPrice() + " -- ");
             System.out.println(menuItem.getDescription());
