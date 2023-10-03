@@ -1,6 +1,7 @@
 package com.mycompany.app;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class PancakeHouseMenu {
@@ -21,6 +22,10 @@ public class PancakeHouseMenu {
 
     public List<MenuItem> getMenuItems() {
         return menuItems;
+    }
+
+    public Iterator<MenuItem> createIterator() {
+        return menuItems.iterator();
     }
 
 }

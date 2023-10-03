@@ -1,7 +1,9 @@
 package com.mycompany.app;
 
-public class Menu {
+import java.util.Iterator;
 
+public interface Menu {
     
-    
+    public Iterator<MenuItem> createIterator();
+
 }
