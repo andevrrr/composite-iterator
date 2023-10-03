@@ -1,9 +1,10 @@
 package com.mycompany.app;
 
+import java.util.Iterator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CafeMenu {
+public class CafeMenu implements Menu{
     Map<String, MenuItem> menuItems = new HashMap<String, MenuItem>();
     
     public CafeMenu() {
@@ -16,7 +17,8 @@ public class CafeMenu {
         menuItems.put(name, menuItem);
     }
 
-    public Map<String, MenuItem> getMenuItems() {
-        return menuItems;
+    public Iterator<MenuItem> createIterator() {
+        return menuItems.values().iterator();
     }
+    
 }
