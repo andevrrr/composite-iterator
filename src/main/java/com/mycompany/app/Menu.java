@@ -38,5 +38,9 @@ public class Menu extends MenuComponent{
         System.out.println("\n" + getName());
         System.out.println(", " + getDescription());
         System.out.println("---------------------");
+
+        for (MenuComponent menuComponent : menuComponent) {
+            menuComponent.print();
+        }
     }
 }
