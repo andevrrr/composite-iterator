@@ -22,4 +22,5 @@ public class PancakeHouseMenu {
     public List<MenuItem> getMenuItems() {
         return menuItems;
     }
+
 }
