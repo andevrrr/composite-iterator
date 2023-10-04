@@ -4,6 +4,7 @@ package com.mycompany.app;
  * Hello world!
  *
  */
+
 public class App 
 {
     public static void main( String args[] )
@@ -14,10 +15,13 @@ public class App
         MenuComponent dessertMenu = new Menu("DESSERT MENU", "Dessert of course!");
 
         MenuComponent allMenus = new Menu("ALL MENUS", "All menus combined");
-
+        MenuComponent pancakeHouseMenuItems = new PancakeHouseMenu();
+        MenuComponent cafeMenuItems = new CafeMenu();
         allMenus.add(pancakeHouseMenu);
+        pancakeHouseMenuItems.addToAllMenus(allMenus);
         allMenus.add(dinerMenu);
         allMenus.add(cafeMenu);
+        cafeMenuItems.addToAllMenus(allMenus);
 
         dinerMenu.add(new MenuItem(
             "Pasta",

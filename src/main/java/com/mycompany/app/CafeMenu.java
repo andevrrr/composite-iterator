@@ -20,5 +20,11 @@ public class CafeMenu extends MenuComponent{
     public Iterator<MenuItem> createIterator() {
         return menuItems.values().iterator();
     }
+
+    public void addToAllMenus(MenuComponent allMenus) {
+        for (MenuItem menuItem : menuItems.values()) {
+            allMenus.add(menuItem);
+        }
+    }
     
 }

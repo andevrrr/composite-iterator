@@ -29,5 +29,10 @@ public abstract class MenuComponent {
     public void print() {
         throw new UnsupportedOperationException();
     }
+    public void addToAllMenus(MenuComponent allMenus) {
+        throw new UnsupportedOperationException();
+    }
+
+
 
 }
